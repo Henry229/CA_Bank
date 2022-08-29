@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body styles*/
+body {
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  max-height: 200vh;
+  height: auto;
+}
+
+/* remove clicked mark when using A tag */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Styling Header*/
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(138deg, rgba(4,2,3,1) 0%, rgba(67,35,73,1) 100%);
+  padding: 1rem;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  /* position: fixed; */
+}
+
+header section ul {
+  display: flex;
+  list-style: none;
+}
+
+.menuItem {
+  margin-right: 1rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #2a5286;
+  padding: 1rem;
+}
+
+main img {
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+main section {
+  width: 80%;
+  padding: 1rem;
+}
+
+main section p {
+  color: white;
+  font-size: 1.4rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+main p {
+  color: white;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+body footer {
+  text-align: center;
+}
+
+
+

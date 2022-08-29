@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body styles*/
+body {
+  width: 100%;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: rgba(10,25,47,1);
+  text-align: center;
+  /* max-height: 200vh; */
+  /* height: auto; */
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(138deg, rgba(4,2,3,1) 0%, rgba(67,35,73,1) 100%);
+  padding: 1rem;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  /* position: fixed; */
+}
+
+header section ul {
+  display: flex;
+  list-style: none;
+}
+
+.menuItem {
+  margin-right: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+main h1 {
+  color: white;
+  font-size: 1.2rem;
+  margin: 2rem;
+}
+
+main p {
+  color: white;
+}
+
+.path {
+  text-align: left;
+  margin: 1rem;
+}
+
